@@ -1,14 +1,13 @@
-# Rhymix Dev container
+## Rhymix Dev container
 라이믹스 코드 테스트를 손쉽게 할수 있도록 도와주는 템플릿 저장소입니다.
 
-Table of Contents
-=================
+## 목차
 
-* [Rhymix Dev container](#rhymix-dev-container)
-   * [English Readme](#english-readme)
-   * [FAQ](#faq)
-      * [1. 업데이트 방법](#1-업데이트-방법)
-   * [Disclaimer](#disclaimer)
+* [English Readme](#english-readme)
+* [FAQ](#faq)
+   * [1. 업데이트 방법](#1-업데이트-방법)
+   * [2. 초기화 방법](#2-초기화-방법)
+* [Disclaimer](#disclaimer)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
