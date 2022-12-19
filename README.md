@@ -43,3 +43,7 @@ Check [README-en.md](./README-en.md)
 이메일 : admin@admin.net
 비밀번호 : admin
 ```
+
+## FAQ
+### 1. 업데이트 방법
+`rhymix` 폴더 안에서 `git pull` 명령을 실행합니다.
