@@ -1,6 +1,17 @@
 # Rhymix Dev container
 라이믹스 코드 테스트를 손쉽게 할수 있도록 도와주는 템플릿 저장소입니다.
 
+Table of Contents
+=================
+
+* [Rhymix Dev container](#rhymix-dev-container)
+   * [English Readme](#english-readme)
+   * [FAQ](#faq)
+      * [1. 업데이트 방법](#1-업데이트-방법)
+   * [Disclaimer](#disclaimer)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+
 ## English Readme
 Check [README-en.md](./README-en.md)
 
@@ -50,3 +61,6 @@ Check [README-en.md](./README-en.md)
 
 ### 2. 초기화 방법
 컨트롤(혹은 커맨드)+쉬프트+P 단축키 입력후 rebuild를 검색해서 컨테이너를 재빌드합니다. 라이믹스 폴더의 변경사항은 삭제되지 않습니다.
+
+## Disclaimer
+이 저장소는 라이믹스 개발 및 테스트를 위해서만 제공됩니다. 제공 목적 이외 사용으로 인한 손실은 책임지지 않습니다.
