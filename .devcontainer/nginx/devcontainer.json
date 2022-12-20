@@ -9,6 +9,6 @@
 	},
 	"forwardPorts": [80],
 	"postCreateCommand": "bash $PWD/.devcontainer/install-gh.sh && bash $PWD/.devcontainer/init.sh && bash $PWD/.devcontainer/nginx/init.sh",
-	"postStartCommand": "sudo bash $PWD/.devcontainer/nginx/start.sh",
+	"postStartCommand": "bash $PWD/.devcontainer/nginx/start.sh",
 	"waitFor": "postStartCommand"
 }

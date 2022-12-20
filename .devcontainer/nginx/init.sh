@@ -1,5 +1,5 @@
 #!/bin/bash
-# stop apache to update config
+# stop nginx to update config
 sudo service nginx stop
 
 # set nginx config
