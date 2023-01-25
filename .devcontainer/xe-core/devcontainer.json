@@ -8,7 +8,7 @@
 		}
 	},
 	"forwardPorts": [80],
-	"postCreateCommand": "bash $PWD/.devcontainer/install-gh.sh && bash $PWD/.devcontainer/init-xe.sh && bash $PWD/.devcontainer/apache/init.sh",
-	"postStartCommand": "bash $PWD/.devcontainer/apache/start.sh",
+	"postCreateCommand": "bash $PWD/.devcontainer/install-gh.sh && bash $PWD/.devcontainer/init-xe.sh && bash $PWD/.devcontainer/xe-core/init.sh",
+	"postStartCommand": "bash $PWD/.devcontainer/xe-core/start.sh",
 	"waitFor": "postStartCommand"
 }
