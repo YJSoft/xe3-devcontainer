@@ -1,5 +1,5 @@
 <?php $install_config = array (
-  'db_type' => 'mysql',
+  'db_type' => 'mysqli_innodb',
   'db_port' => '3306',
   'db_hostname' => 'localhost',
   'db_userid' => 'xpressengine',
