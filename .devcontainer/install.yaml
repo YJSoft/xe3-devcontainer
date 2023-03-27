@@ -1,0 +1,16 @@
+site:
+    url: 'https://%DOMAIN%'
+    timezone: Asia/Seoul
+    locale: ko
+admin:
+    email: 'admin@admin.net'
+    password: 'admin!@#$%'
+    display_name: Admin
+database:
+    driver: mysql
+    host: localhost
+    port: 3306
+    dbname: 'xe3'
+    username: xpressengine
+    password: 'xpressengine'
+    prefix: xe3

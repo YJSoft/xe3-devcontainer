@@ -2,28 +2,25 @@
 # load .env
 export $(grep -v '^#' $PWD/.env | xargs)
 
-# clone rhymix if not exists
-if [ ! -d "$PWD/rhymix" ] 
+# clone xe3 if not exists
+if [ ! -d "$PWD/xe3" ] 
 then
-    gh repo clone $RHYMIX_REPO $PWD/rhymix
+    gh repo clone $XE3_REPO $PWD/xe3
 
-    pushd $PWD/rhymix
-    git checkout $RHYMIX_BRANCH
+    pushd $PWD/xe3
+    git checkout $XE3_BRANCH
     popd
 fi
 
 # remove previous files folder
-rm -rf $PWD/rhymix/files
-
-# set config
-cp -f $PWD/.devcontainer/config.php $PWD/rhymix/config/config.user.inc.php
-cp -f $PWD/.devcontainer/install.php $PWD/rhymix/config/install.config.php
+rm -rf $PWD/xe3/storage
 
 # link repo to /var/www/ to access from web
-sudo ln -s $PWD/rhymix /var/www/
+sudo ln -s $PWD/xe3 /var/www/
+sudo chmod 777 /var/www/xe3
 
 # create db (only first time)
 sudo service mysql start
-sudo mysql -uroot -proot -e "CREATE DATABASE rhymix CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci"
-sudo mysql -uroot -proot -e "CREATE USER 'rhymix'@localhost IDENTIFIED BY 'rhymix'"
-sudo mysql -uroot -proot -e "GRANT ALL ON rhymix.* to rhymix@localhost; FLUSH PRIVILEGES"
+sudo mysql -uroot -proot -e "CREATE DATABASE xe3 CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci"
+sudo mysql -uroot -proot -e "CREATE USER 'xpressengine'@localhost IDENTIFIED BY 'xpressengine'"
+sudo mysql -uroot -proot -e "GRANT ALL ON xe3.* to xpressengine@localhost; FLUSH PRIVILEGES"

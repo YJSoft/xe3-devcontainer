@@ -1,5 +1,5 @@
 {
-	"name": "Rhymix with Apache",
+	"name": "XE3 with Apache",
 	"image": "mcr.microsoft.com/devcontainers/base:focal",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
