@@ -8,7 +8,7 @@
 		}
 	},
 	"forwardPorts": [80],
-	"postCreateCommand": "bash $PWD/.devcontainer/install-gh.sh && bash $PWD/.devcontainer/init.sh && bash $PWD/.devcontainer/apache/init.sh",
+	"postCreateCommand": "bash $PWD/.devcontainer/init.sh && bash $PWD/.devcontainer/apache/init.sh",
 	"postStartCommand": "bash $PWD/.devcontainer/apache/start.sh",
 	"waitFor": "postStartCommand"
 }

@@ -2,14 +2,10 @@
 # load .env
 export $(grep -v '^#' $PWD/.env | xargs)
 
-# clone xe3 if not exists
+# create xe3 folder if not exists
 if [ ! -d "$PWD/xe3" ] 
 then
-    gh repo clone $XE3_REPO $PWD/xe3
-
-    pushd $PWD/xe3
-    git checkout $XE3_BRANCH
-    popd
+    mkdir $PWD/xe3
 fi
 
 # remove previous files folder
