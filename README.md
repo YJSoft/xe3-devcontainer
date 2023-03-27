@@ -21,7 +21,7 @@ Check [README-en.md](./README-en.md)
 
 ![gh-2](https://user-images.githubusercontent.com/18280396/208420274-87379910-b7a4-4ae5-9b0e-ca034e4f4b78.png)
 
-2. 저장소 이름을 적당히 골라줍니다. 나중에 XE3 저장소를 포크할 경우를 대비해서 `xe3` 이외 이름을 사용하는것을 추천드립니다. (예. `xpressengine-devenv`)
+2. 저장소 이름을 적당히 골라줍니다. 나중에 XE3 저장소를 포크할 경우를 대비해서 `xpressengine` 이외 이름을 사용하는것을 추천드립니다. (예. `xpressengine-devenv`)
 
 ![gh-2-optional](https://user-images.githubusercontent.com/18280396/208420462-e9736f0f-2ee2-47ab-b39d-acea9e78dcd5.png)
 
