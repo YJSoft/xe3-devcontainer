@@ -13,4 +13,5 @@ database:
     dbname: 'xe3'
     username: xpressengine
     password: 'xpressengine'
+    charset: 'utf8'
     prefix: xe3
